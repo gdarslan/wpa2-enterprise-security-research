@@ -31,6 +31,12 @@ The Windows host ran the FreeRADIUS VM in VirtualBox and the Kali VM in VMware. 
 
 **Key finding:** successful authentication and confidentiality are distinct from availability. The client rejected the rogue certificate in this experiment, while the deauthentication scenario interrupted service and the outer identity was observable.
 
+## My contribution and technical depth
+
+I designed and implemented the lab as an individual research project. My work included configuring FreeRADIUS and the access point, establishing a laboratory certificate trust relationship, validating EAP-PEAP authentication, troubleshooting service and connectivity problems, and comparing the legitimate connection with controlled security-test outcomes.
+
+The initial plan proposed different equipment and broader testing. The final implementation reflects the hardware I actually used, and the results explicitly distinguish confidentiality, identity privacy and availability. The assessment is based on the original final report and its supporting screenshots; it is not a generic tutorial or a claim of a successful man-in-the-middle interception.
+
 ## Research documentation
 
 - [Research scope and methodology](docs/research-method.md)
