@@ -37,6 +37,12 @@ I designed and implemented the lab as an individual research project. My work in
 
 The initial plan proposed different equipment and broader testing. The final implementation reflects the hardware I actually used, and the results explicitly distinguish confidentiality, identity privacy and availability. The assessment is based on the original final report and its supporting screenshots; it is not a generic tutorial or a claim of a successful man-in-the-middle interception.
 
+## Selected lab screenshot
+
+![Freeradius service](assets/freeradius-service.png)
+
+*FreeRADIUS active and processing requests in the original laboratory report.* More original screenshots with evidence captions are available in the linked technical documentation.
+
 ## Research documentation
 
 - [Research scope and methodology](docs/research-method.md)
@@ -49,4 +55,4 @@ FreeRADIUS, Linux administration, 802.1X, EAP, PEAP, TLS and PKI, wireless authe
 
 ## Scope and responsible use
 
-This is a historical academic research project on owned, controlled lab equipment, not an attack guide. Results apply to the tested client and configuration; they do not establish immunity for every enterprise Wi-Fi deployment. Credentials, raw captures, detailed attack commands and identifying screenshots are excluded from this public portfolio. No production deployment is claimed.
+This is a historical academic research project on owned, controlled lab equipment, not an attack guide. Results apply to the tested client and configuration; they do not establish immunity for every enterprise Wi-Fi deployment. Credentials, raw captures, detailed attack commands and screenshots containing private information are excluded from this public portfolio. No production deployment is claimed.

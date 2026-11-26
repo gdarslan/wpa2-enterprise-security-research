@@ -95,4 +95,25 @@ This gave me practical experience with diagnosing failures at different layers: 
 
 ## Evidence and traceability
 
-The final PRP report contains screenshots of the RADIUS service, access-point configuration, client connection, authentication debug output, lab topology and controlled tests. This public edition summarizes the observations from those sections without copying raw credential fields, device identifiers, test commands or screenshots that could reveal configuration details. The research plan and presentation were used for context; reported results come from the final report.
+The final PRP report contains screenshots of the RADIUS service, access-point configuration, client connection, authentication debug output, lab topology and controlled tests. This public edition summarizes the observations from those sections without publishing raw credential fields, sensitive device identifiers or attack commands. The research plan and presentation were used for context; reported results come from the final report.
+
+
+## Selected original lab evidence
+
+The images below are taken from the original academic report. Selected excerpts are cropped where needed to exclude identifiers and unrelated information. The public evidence contains no test credentials, IP addresses, or device identifiers.
+
+![Freeradius service](../assets/freeradius-service.png)
+
+*FreeRADIUS service running and processing requests. This demonstrates service readiness, not a successful client login.*
+
+![Eap peap](../assets/eap-peap.png)
+
+*The original FreeRADIUS EAP configuration identifies PEAP as the default outer authentication method.*
+
+![Peap inner method](../assets/peap-inner-method.png)
+
+*PEAP configuration records MSCHAPv2 as the inner authentication method.*
+
+![Certificate chain](../assets/certificate-chain.png)
+
+*The server certificate and CA file references document the lab certificate configuration (no private keys shown).*
